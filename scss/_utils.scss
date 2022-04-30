@@ -1,0 +1,17 @@
+@mixin reset-pm {
+    padding: 0px;
+    margin: 0px;
+}
+
+footer{
+    @include reset-pm();
+ 
+     div{
+         background-color: $terciary-color;
+         color: $secondary-color;
+ 
+         a{
+             @include btn($primary-color,$secondary-color,"true");
+         }
+     }
+ }

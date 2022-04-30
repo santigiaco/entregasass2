@@ -1,0 +1,1 @@
+en el archivo index y alquiler agregué SEO dandole una descripción breve de lo que va la pagina. en las etiquetas "alt" tambien agregué descripcion a las imagenes.

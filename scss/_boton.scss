@@ -1,0 +1,15 @@
+@mixin btn($background-color, $color, $bold) {
+    background-color: $background-color;
+    color: $color;
+    border-radius: 50px;
+    padding: 20px 3px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    @if($bold = "true"){
+        font-weight: bolder;
+        
+    }
+}
